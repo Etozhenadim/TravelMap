@@ -1,0 +1,24 @@
+body{
+    margin:0;
+    padding: 0;
+    background-image: url("../img/background_2.jpg");
+    background-size: cover;
+    min-height: 100vh;
+}
+.map__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 100px;
+}
+h1{
+    font-size: 66px;
+    color: #535364;
+}
+#mapdiv{
+    width: 1200px;
+    height: 80vh;
+    border-radius: 10px;
+}
